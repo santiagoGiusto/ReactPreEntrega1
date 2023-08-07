@@ -1,0 +1,19 @@
+.NavBar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(23, 23, 23);
+    align-items: center;
+    height: 7vh;
+}
+
+.NavBar .Categories {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.NavBar a {
+    color: aliceblue;
+    text-decoration: none;
+}
+

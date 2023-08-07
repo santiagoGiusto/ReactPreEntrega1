@@ -1,22 +1,20 @@
+import './NavBar.css'
 import CartWidget from "../CartWidget/CartWidget";
-import { Button } from "react-bootstrap";
-import  Navbar  from 'react-bootstrap/Navbar';
-import  Nav  from "react-bootstrap/Nav";
-
-
-
+import { NavLink, Link } from 'react-router-dom'
 
 const NavBar = () => {
     return (
-        <Nav className="flex-column my-4">
-            <h3>CoderHouse react - Pre entrega 1 - Santiago Giusto</h3>
-            <Navbar className="d-flex justify-content-around my-4" bg="warning" data-bs-theme="dark">
-                <Button variant="dark" >BOTON 1</Button>
-                <Button variant="dark">BOTON 2</Button>
-                <Button variant="dark">BOTON 3</Button>
-             </Navbar>
-         <CartWidget/>
-        </Nav>
+        <nav className="NavBar">
+            <Link to ='/'>
+                <h3>BACO</h3>
+            </Link>
+            <div className='Categories'>
+                <NavLink to={`/category/tintos`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}> Tintos</NavLink>
+                <NavLink to={`/category/blancos`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Blancos</NavLink>
+                <NavLink to={`/category/espumantes`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Espumantes</NavLink>
+            </div>
+            <CartWidget/>
+        </nav>
     )
 }
 

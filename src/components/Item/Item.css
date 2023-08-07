@@ -1,0 +1,22 @@
+.CardItem .Header { 
+    background-color: rgb(44, 44, 44);
+    color: white;
+    
+}
+
+.CardItem .Precio {
+    background-color: rgba(212, 52, 52, 0.397);
+}
+
+
+.ItemImg {
+    width: 100%;
+}
+
+.CardItem .Detalle {
+    text-decoration: none;
+    background-color: black;
+    padding: 2%;
+    color: white;
+    border-radius: 7px;
+}
