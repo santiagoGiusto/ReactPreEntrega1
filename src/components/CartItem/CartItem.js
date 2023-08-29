@@ -36,10 +36,6 @@ const CartItem = ({ id, name, price, quantity}) => {
                 </h4>
             </section>
 
-            {/* <section>
-                <h3>Total a pagar: ${total}</h3>
-            </section> */}
-
             <section>
                 <button className='btn btn-danger ' onClick={() => removeItem(id)}>Eliminar</button>
             </section>
