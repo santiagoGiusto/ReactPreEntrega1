@@ -1,6 +1,6 @@
 .CardItem {
     margin: auto;
-    margin-top: 2%;
+    margin-top: 3%;
     width: 100%;
 }
 
@@ -21,6 +21,10 @@
     align-items: center;
     justify-content: space-around;
     font-size: 20px;
+    background-color: white(23, 23, 23);
+    border: 1px solid black;
+    margin-right: 2%;
+
 }
 
 .TarjetaDetalleDos .Header  {

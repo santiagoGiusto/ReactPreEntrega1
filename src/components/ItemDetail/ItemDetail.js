@@ -54,7 +54,7 @@ const ItemDetail = ({ id, name, img, category, description, price, stock}) => {
                             <ItemCount initial={1} stock={stock} onAdd={handleOnAdd} />
                         )
                     }   
-                </footer>
+            </footer>
         </article>
     )
 }

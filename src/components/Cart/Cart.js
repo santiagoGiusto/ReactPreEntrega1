@@ -17,7 +17,7 @@ const Cart = () => {
     }
 
     return (
-        <div>
+        <div className='carro'>
             <h2 className='tuCarritoTitle'>Tu Carrito</h2>
             { cart.map(p => <CartItem key={p.id} {...p}/>) }
             <h3>Precio Final: ${totalPrice()}</h3>

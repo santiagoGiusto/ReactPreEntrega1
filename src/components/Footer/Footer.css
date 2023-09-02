@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    border-top:1px solid black ;
+    padding-top: 2%;
+}
+
+.gitLink {
+    text-decoration: none;
+    color: black;
+}
