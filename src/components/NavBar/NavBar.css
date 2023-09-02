@@ -1,7 +1,6 @@
 .NavBar {
     display: flex;
     position: relative;
-    justify-content: space-evenly;
     background-color: rgb(23, 23, 23);
     align-items: center;
     height: 10vh;
@@ -9,23 +8,14 @@
 
 }
 
-/* .NavBar .title {
-    border-bottom: white 1px solid;
-    border-top: white 1px solid;
-    margin: auto;
-} */
-
 .NavBar .logo {
-    width: 9%;
-    position: absolute;
-    left: 3%;
-    top: -35%;
+    width: 28%;
 }
 
 .NavBar .Categories {
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-weight: 500;
     font-size: 25px;
 }
