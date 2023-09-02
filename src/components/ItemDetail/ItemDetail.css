@@ -11,6 +11,7 @@
 .TarjetaDetalleUno {
     width: 40%;
     margin: auto;
+    border: solid black 1px;
 }
 
 .TarjetaDetalleDos {

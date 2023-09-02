@@ -1,19 +1,37 @@
 .NavBar {
     display: flex;
-    justify-content: space-around;
+    position: relative;
+    justify-content: space-evenly;
     background-color: rgb(23, 23, 23);
     align-items: center;
-    height: 7vh;
+    height: 10vh;
+    margin: 2.5% 0 2% 0;
+
+}
+
+/* .NavBar .title {
+    border-bottom: white 1px solid;
+    border-top: white 1px solid;
+    margin: auto;
+} */
+
+.NavBar .logo {
+    width: 9%;
+    position: absolute;
+    left: 3%;
+    top: -35%;
 }
 
 .NavBar .Categories {
     width: 50%;
     display: flex;
     justify-content: space-around;
+    font-weight: 500;
+    font-size: 25px;
 }
 
 .NavBar a {
-    color: aliceblue;
+    color: white;
     text-decoration: none;
 }
 

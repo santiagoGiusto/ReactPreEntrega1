@@ -1,0 +1,45 @@
+.Container {
+    display: flex;
+    justify-content: center;
+}
+
+.Form {
+    border-radius: 10px;
+    background-color: rgb(23, 23, 23);
+    padding: 2%;
+}
+
+.LabelContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+
+
+
+  }
+
+.Label {
+    color: white;  
+    width: 100%;
+}
+
+.Input {
+    width: 100%;
+}
+
+.Error {
+    color: rgb(168, 45, 45);
+}
+
+.ErrorMessage {
+    color: rgb(168, 45, 45);
+}
+
+.Button {
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 7px;
+}

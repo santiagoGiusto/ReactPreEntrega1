@@ -4,7 +4,6 @@ import './ItemDetailContainer.css'
 import { getDoc, doc } from 'firebase/firestore'
 import { db } from '../../services/firebase/firebaseConfig'
 import {useState, useEffect } from 'react'
-// import { getProductById } from '../../asyncMock'
 
 
 const ItemDetailContainer = () => {
@@ -31,17 +30,6 @@ const ItemDetailContainer = () => {
                 setLoading(false)
             })
     }, [itemId])
-
-    // // LOGICA DEL ASYNCMOCK
-    // useEffect (() => {
-    //     getProductById(itemId)
-    //     .then(response => {
-    //         setProduct(response)
-    //     })
-    //     .catch(error => {
-    //         console.error(error)
-    //     })
-    // },[itemId])
 
     return(
         <div className='ItemDetailContainer'>

@@ -5,13 +5,13 @@ import { NavLink, Link } from 'react-router-dom'
 const NavBar = () => {
     return (
         <nav className="NavBar">
-            <Link to ='/'>
-                <h3>BACO</h3>
+            <Link to ='/' className='NavBarLogo'>
+                <img src='https://santiagogiusto.github.io/JsEntregaFinalSantiagoGIusto/multimedia/img/logo.png' className='logo'/>
             </Link>
             <div className='Categories'>
-                <NavLink to={`/category/tintos`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}> Tintos</NavLink>
-                <NavLink to={`/category/blancos`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Blancos</NavLink>
-                <NavLink to={`/category/espumantes`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Espumantes</NavLink>
+                <NavLink to={`/category/tintos`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}> TINTOS</NavLink>
+                <NavLink to={`/category/blancos`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>BLANCOS</NavLink>
+                <NavLink to={`/category/espumantes`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>ESPUMANTES</NavLink>
             </div>
             <CartWidget/>
         </nav>
