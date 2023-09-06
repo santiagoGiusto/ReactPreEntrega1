@@ -1,0 +1,19 @@
+.ItemListContainer {
+    margin-bottom: 2%;
+}
+
+.title {
+    margin: 2% 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .ItemListContainer {
+        margin-bottom: 19%;
+    }
+}
+
+.cebra {
+    width: 100%;
+    height: 5vh;
+}

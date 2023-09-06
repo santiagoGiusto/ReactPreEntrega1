@@ -20,3 +20,14 @@
     color: white;
     border-radius: 7px;
 }
+
+@media screen and (max-width: 1024px) {
+    .CardItem {
+        border-bottom: 1px solid black;
+    }
+    
+    .ItemFooter {
+        margin-bottom: 5%;
+    }
+}
+

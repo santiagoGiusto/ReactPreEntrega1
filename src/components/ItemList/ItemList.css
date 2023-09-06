@@ -5,5 +5,30 @@
     grid-row-gap: 5%;
     margin: 0 5px;
     margin-bottom: 7%;
-    height: fit-content;
+}
+
+@media screen and (max-width: 1024px) {
+    .ListGroup {
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        margin: auto;
+        grid-row-gap: 2%;
+        margin-bottom: 7%;
+        height: fit-content;
+        
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ListGroup {
+        grid-template-columns: repeat(1, 1fr);
+        width: 80%;
+        height: fit-content;
+        grid-row-gap: .5%;
+    }
+
+    .grid-container {
+        margin-bottom: 40%;
+    }
 }

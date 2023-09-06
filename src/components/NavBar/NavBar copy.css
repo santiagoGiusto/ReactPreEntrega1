@@ -1,0 +1,32 @@
+.NavBar {
+    display: flex;
+    background-color: rgb(23, 23, 23);
+    align-items: center;
+    height: 10vh;
+    margin: 2.5% 0 2% 0;
+
+}
+
+.NavBarLogo {
+    width: 20%;
+}
+
+.NavBarLogo img {
+    width: 10vw;
+}
+
+.NavBar .Categories {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.NavBar a {
+    color: white;
+    text-decoration: none;
+}
+
+
+

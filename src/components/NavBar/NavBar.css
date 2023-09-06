@@ -1,30 +1,62 @@
-.NavBar {
+.navbar {
     display: flex;
     background-color: rgb(23, 23, 23);
-    align-items: center;
     height: 10vh;
     margin: 2.5% 0 2% 0;
-
 }
 
-.NavBarLogo {
-    width: 20%;
-}
-
-.NavBarLogo img {
+.logo {
     width: 10vw;
+    margin-left: 40%;
 }
 
-.NavBar .Categories {
-    width: 80%;
-    display: flex;
-    justify-content: space-evenly;
-    font-weight: 500;
-    font-size: 25px;
+.navbar .Categories {
+    gap: 50px;
+    margin-right: 5%;
+    align-items: center;
+
 }
 
-.NavBar a {
+.navbar a {
     color: white;
     text-decoration: none;
 }
+
+.nav-item .nav-link {
+    color: white;
+}
+
+
+@media (max-width: 575px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        background-color: rgb(23, 23, 23);
+    }
+
+    .navbar-brand {
+        width: 40%;
+        padding: 0;
+    }
+
+    .logo {
+        width: 12vw;
+    }
+
+    .Categories {
+        background-color: rgb(23, 23, 23);
+        width: 100%;
+        height: 50vh;
+        
+    }
+
+    .navbar-dark {
+        font-size: 25px;
+    }
+}
+
+
+
+
+
 
